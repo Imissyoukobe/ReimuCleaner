@@ -49,7 +49,9 @@ messages:
 
 命令说明
  `/reimucleaner reload`  重新加载插件配置  reimucleaner.admin 
+ 
  `/reimucleaner clean`  立即执行一次清理  reimucleaner.admin 
+ 
  `/reimucleaner help`  显示帮助信息  reimucleaner.use 
 
 权限说明
