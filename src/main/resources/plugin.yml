@@ -1,0 +1,25 @@
+name: ReimuCleaner
+version: 1.0.0
+description: 东方Project博丽灵梦风格的掉落物清理插件
+author: YourName
+main: com.example.reimucleaner.ReimuCleanerPlugin
+api-version: '1.21'
+prefix: ReimuCleaner
+load: STARTUP
+
+commands:
+  reimucleaner:
+    description: 博丽灵梦掉落物清理插件的主命令
+    aliases: [rc, reimu, cleaner]
+    usage: /<command> [reload|clean]
+    permission: reimucleaner.use
+
+permissions:
+  reimucleaner.use:
+    description: 允许使用ReimuCleaner的命令
+    default: op
+  reimucleaner.admin:
+    description: 允许使用ReimuCleaner的所有功能
+    default: op
+    children:
+      - reimucleaner.use
